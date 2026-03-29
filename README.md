@@ -27,4 +27,4 @@ This project analyzes 5,800+ student evaluation records using machine learning t
 - Scikit-learn
 - Matplotlib
 
-Author: Emmanuel Emedeke
+

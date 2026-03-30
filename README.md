@@ -19,7 +19,16 @@ This project analyzes 5,800+ student evaluation records using machine learning t
   - Moderate satisfaction
   - Low satisfaction
 - Provided insights into student engagement trends
-  
+
+  ## Visualizations
+
+### Clustering Results
+![Clustering](img/clustering.png)
+
+### Elbow Method
+![Elbow](img/elbow.png)
+
+
 
 ## Tools & Technologies:
 - Python

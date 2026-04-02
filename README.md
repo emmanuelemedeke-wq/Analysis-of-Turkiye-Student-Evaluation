@@ -10,7 +10,7 @@
 - [Results & Insights](#results--insights)
 - [Tools & Technologies](#tools--technologies)
 
-## Introudction
+## Introduction
 This project applies **K-Means clustering** to analyze student evaluation data from the **Turkiye Student Evaluation dataset**
 
 The goal is to identify patterns in student feedback and group similar responses into meaningful clusters to support educational insights and decision-making.

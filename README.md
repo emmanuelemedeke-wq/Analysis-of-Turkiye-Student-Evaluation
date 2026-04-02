@@ -89,6 +89,10 @@ Optimal number of clusters: **k = 3**
 
  Score ≈ **0.38** → Moderate cluster separation
 
+ The silhouette score (~0.38) indicates moderate separation between clusters, suggesting some overlap in student responses.
+
+
+
 ---
 
 

@@ -1,11 +1,69 @@
 # Student Evaluation Analysis using Machine Learning
 
 ## Introudction
-This project analyzes 5,800+ student evaluation records using machine learning techniques to identify patterns in student satisfaction and engagement
+This project applies **K-Means clustering** to analyze student evaluation data from the **Turkiye Student Evaluation dataset**
+
+The goal is to identify patterns in student feedback and group similar responses into meaningful clusters to support educational insights and decision-making.
+
+## Objective
+- Identify patterns in student evaluation responses
+- Group students into clusters based on satisfaction levels
+- Analyze similarities and differences between clusters
+- Support data-driven decision-making in education
+
+
+
+
 
 ## Dataset
-- 5,800+ student records
-- Features include evaluation scores and feedback metrics
+ Source: UCI Machine Learning Repository
+- Records: 5,820 student records
+- Features: 33 variables (Likert scale: 1–5)
+
+[turkiye-student.csv]()
+
+## Exploratory Data Analysis (EDA)
+
+### Histogram
+![Histogram](images/histogram.png)
+
+ Most responses fall between **3 and 4**, indicating moderate to high satisfaction.
+
+---
+
+### Box Plot
+![Box Plot](images/boxplot.png)
+
+ Median around **3**, showing overall balanced evaluations.
+
+---
+
+### Bar Chart
+![Bar Chart](images/barchart.png)
+
+ Ratings **3 and 4 dominate**, confirming positive feedback trends.
+
+---
+
+### Scatter Plot
+![Scatter Plot](images/scatter.png)
+
+ Positive relationship between evaluation questions → students tend to rate consistently.
+
+---
+
+## Methodology
+
+### Data Preprocessing
+- Standardized features using `StandardScaler`
+- Ensured all variables contribute equally to clustering
+
+### Clustering Algorithm
+- Applied **K-Means Clustering**
+
+---
+
+
 
 ## Methods
 - Data preprocessing (cleaning, scaling)
@@ -25,8 +83,34 @@ This project analyzes 5,800+ student evaluation records using machine learning t
 ### Clustering Results
 ![Clustering](img/clustering.png)
 
+Optimal number of clusters: **k = 3**
+
 ### Elbow Method
 ![Elbow](img/elbow.png)
+
+Optimal number of clusters: **k = 3**
+
+---
+
+### Silhouette Score
+![Silhouette](images/silhouette.png)
+
+ Score ≈ **0.38** → Moderate cluster separation
+
+---
+
+## Results & Insights
+
+Three distinct clusters were identified:
+
+- **Cluster 1:** High satisfaction (ratings ≈ 4–5)
+- **Cluster 2:** Low satisfaction (ratings ≈ 1–2)
+- **Cluster 3:** Moderate satisfaction (ratings ≈ 3)
+
+This segmentation helps institutions:
+- Identify areas needing improvement
+- Understand student satisfaction patterns
+- Improve teaching strategies
 
 
 

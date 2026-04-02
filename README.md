@@ -22,31 +22,31 @@ The goal is to identify patterns in student feedback and group similar responses
 
 [turkiye-student.csv]()
 
-## Exploratory Data Analysis (EDA)  
+## Exploratory Data Analysis (EDA) & Visualizations  
 
 ### Histogram
-![Histogram](images/histogram.png)
+![Histogram](img/histogram.png)
 
  Most responses fall between **3 and 4**, indicating moderate to high satisfaction.
 
 ---
 
 ### Box Plot
-![Box Plot](images/boxplot.png)
+![Box Plot](img/boxplot.png)
 
  Median around **3**, showing overall balanced evaluations.
 
 ---
 
 ### Bar Chart
-![Bar Chart](images/barchart.png)
+![Bar Chart](img/barchart.png)
 
  Ratings **3 and 4 dominate**, confirming positive feedback trends.
 
 ---
 
 ### Scatter Plot
-![Scatter Plot](images/scatter.png)
+![Scatter Plot](img/scatter.png)
 
  Positive relationship between evaluation questions → students tend to rate consistently.
 
@@ -72,17 +72,17 @@ The goal is to identify patterns in student feedback and group similar responses
 
 
 
- ## Cluster Evaluation ## Visualizations
+ ## Cluster Evaluation 
 
 ### Elbow Method
-![Elbow](images/elbow.png)
+![Elbow](img/elbow.png)
 
 ➡️ Optimal number of clusters: **k = 3**
 
 ---
 
 ### Silhouette Score
-![Silhouette](images/silhouette.png)
+![Silhouette](img/silhouette.png)
 
 ➡️ Score ≈ **0.38** → Moderate cluster separation
 

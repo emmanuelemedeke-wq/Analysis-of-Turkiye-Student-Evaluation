@@ -1,7 +1,7 @@
 # Student Evaluation Analysis using Machine Learning
 
-## Table of Content
-- [Introudction](#introudction)
+## Table of Contents
+- [Introduction](#introduction)
 - [Objective](#objective)
 - [Dataset](#dataset)
 - [Exploratory Data Analysis (EDA) & Visualizations](#exploratory-data-analysis-eda--visualizations)
@@ -117,6 +117,9 @@ This segmentation helps institutions:
 ##  Author
 Emmanuel Emedeke  
 Graduate Student – Data Analytics (UMGC)
+
+
+Source: UCI Machine Learning Repository – Turkiye Student Evaluation Dataset
 
 ---
 

@@ -22,7 +22,7 @@ The goal is to identify patterns in student feedback and group similar responses
 
 [turkiye-student.csv]()
 
-## Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)  
 
 ### Histogram
 ![Histogram](images/histogram.png)
@@ -64,40 +64,30 @@ The goal is to identify patterns in student feedback and group similar responses
 ---
 
 
-
 ## Methods
 - Data preprocessing (cleaning, scaling)
 - Exploratory Data Analysis (EDA)
 - K-Means clustering
 - Elbow Method & Silhouette Score for model evaluation
 
-## Results
-- Identified 3 clusters:
-  - High satisfaction
-  - Moderate satisfaction
-  - Low satisfaction
-- Provided insights into student engagement trends
 
-  ## Visualizations
 
-### Clustering Results
-![Clustering](img/clustering.png)
-
-Optimal number of clusters: **k = 3**
+ ## Cluster Evaluation ## Visualizations
 
 ### Elbow Method
-![Elbow](img/elbow.png)
+![Elbow](images/elbow.png)
 
-Optimal number of clusters: **k = 3**
+➡️ Optimal number of clusters: **k = 3**
 
 ---
 
 ### Silhouette Score
 ![Silhouette](images/silhouette.png)
 
- Score ≈ **0.38** → Moderate cluster separation
+➡️ Score ≈ **0.38** → Moderate cluster separation
 
 ---
+
 
 ## Results & Insights
 
@@ -117,7 +107,22 @@ This segmentation helps institutions:
 ## Tools & Technologies:
 - Python
 - Pandas
+- NumPy
 - Scikit-learn
 - Matplotlib
+
+##  Author
+Emmanuel Emedeke  
+Graduate Student – Data Analytics (UMGC)
+
+---
+
+## Key Skills Demonstrated
+- Data preprocessing & scaling
+- Exploratory Data Analysis (EDA)
+- K-Means clustering
+- Model evaluation (Elbow Method, Silhouette Score)
+- Data visualization
+
 
 

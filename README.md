@@ -77,14 +77,14 @@ The goal is to identify patterns in student feedback and group similar responses
 ### Elbow Method
 ![Elbow](img/elbow.png)
 
-➡️ Optimal number of clusters: **k = 3**
+Optimal number of clusters: **k = 3**
 
 ---
 
 ### Silhouette Score
 ![Silhouette](img/silhouette.png)
 
-➡️ Score ≈ **0.38** → Moderate cluster separation
+ Score ≈ **0.38** → Moderate cluster separation
 
 ---
 

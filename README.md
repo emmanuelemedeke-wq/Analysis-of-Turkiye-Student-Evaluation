@@ -1,5 +1,15 @@
 # Student Evaluation Analysis using Machine Learning
 
+## Table of Content
+- [Introudction](#introudction)
+- [Objective](#objective)
+- [Dataset](#dataset)
+- [Exploratory Data Analysis (EDA) & Visualizations](#exploratory-data-analysis-eda--visualizations)
+- [Methodology](#methodology)
+- [Cluster Evaluation](#cluster-evaluation)
+- [Results & Insights](#results--insights)
+- [Tools & Technologies](#tools--technologies)
+
 ## Introudction
 This project applies **K-Means clustering** to analyze student evaluation data from the **Turkiye Student Evaluation dataset**
 
@@ -62,13 +72,6 @@ The goal is to identify patterns in student feedback and group similar responses
 - Applied **K-Means Clustering**
 
 ---
-
-
-## Methods
-- Data preprocessing (cleaning, scaling)
-- Exploratory Data Analysis (EDA)
-- K-Means clustering
-- Elbow Method & Silhouette Score for model evaluation
 
 
 

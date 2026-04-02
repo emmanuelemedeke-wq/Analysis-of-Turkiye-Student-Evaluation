@@ -20,7 +20,7 @@ The goal is to identify patterns in student feedback and group similar responses
 - Records: 5,820 student records
 - Features: 33 variables (Likert scale: 1–5)
 
-[turkiye-student.csv]()
+[turkiye-student.csv](https://raw.githubusercontent.com/emmanuelemedeke-wq/Analysis-of-Turkiye-Student-Evaluation/refs/heads/main/turkiye-student.csv)
 
 ## Exploratory Data Analysis (EDA) & Visualizations  
 
